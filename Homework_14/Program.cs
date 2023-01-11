@@ -331,7 +331,7 @@ class Program
             catch (Exception) { Console.Write("Wrong data! Please try again: "); }
         }
 
-        animalData.ShowMyID();
+        Console.WriteLine(animalData.ShowMyID());
         animalData.Move();
     }
 
